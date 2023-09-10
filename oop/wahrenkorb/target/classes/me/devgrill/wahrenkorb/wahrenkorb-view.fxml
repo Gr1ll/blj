@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="295.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.devgrill.wahrenkorb.WahrenKorbController">
+    <children>
+        <TextField fx:id="Produkt" layoutX="252.0" layoutY="116.0" prefHeight="43.0" prefWidth="257.0" />
+        <Text layoutX="63.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Produkt Name" wrappingWidth="128.13671875" />
+        <Button fx:id="Hinzufügen" layoutX="265.0" layoutY="248.0" mnemonicParsing="false" onAction="#onAdd" prefHeight="32.0" prefWidth="146.0" text="Hinzufügen" />
+      <Hyperlink fx:id="wahrenkorb" layoutX="236.0" layoutY="51.0" onAction="#showWarenkorb" prefHeight="23.0" prefWidth="128.0" text="Wahrenkorb" />
+      <Text fx:id="anzahl" layoutX="182.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(0)" wrappingWidth="43.13671875" />
+      <Text layoutX="137.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anzahl" wrappingWidth="108.13671875" />
+      <TextField fx:id="quantity" layoutX="252.0" layoutY="183.0" prefHeight="25.0" prefWidth="37.0" />
+    </children>
+</AnchorPane>

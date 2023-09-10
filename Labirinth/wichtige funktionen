@@ -1,0 +1,11 @@
+für die Funktion Animation:
+[
+make = true;
+animation();
+]
+
+für die Fnktion -50 punkte (wallhit)
+[
+touched = true;
+touchScore();
+]

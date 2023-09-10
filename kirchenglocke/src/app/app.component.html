@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      input {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form #timeInput="ngForm" (ngSubmit)="churchClock(timeInput)">
+      <input type="time" id="time" name="time" required ngModel />
+      <input type="submit" value="submit" />
+    </form>
+
+    <div *ngIf="time">
+      <h1>Church Clock</h1>
+      <h5>Schläge der Stunde: {{ hourRings }}</h5>
+      <h5>Schläge der Viertelstunden: {{ quaters }}</h5>
+    </div>
+  </body>
+</html>

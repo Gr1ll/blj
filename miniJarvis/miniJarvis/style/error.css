@@ -1,0 +1,19 @@
+.errordiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.error{
+    border: red solid 1px;
+    width: 25%;
+    text-align: center;
+    color: #D8000C;
+    background-color: #FFD2D2;
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="841.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xyz.devgrill.mond.MondController">
+    <children>
+        <TextField fx:id="txt1" layoutX="252.0" layoutY="116.0" prefHeight="43.0" prefWidth="257.0" />
+        <TextField fx:id="Ausgabe" editable="false" layoutX="172.0" layoutY="405.0" prefHeight="43.0" prefWidth="257.0" />
+        <Text layoutX="77.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reisedauer:" wrappingWidth="128.13671875" />
+        <Text layoutX="63.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Geschwindikeit in KM/H" wrappingWidth="128.13671875" />
+        <Button fx:id="Zeichnen" layoutX="191.0" layoutY="209.0" mnemonicParsing="false" onAction="#onBerechnen" prefHeight="32.0" prefWidth="146.0" text="Berechnen" />
+      <RadioButton fx:id="days" layoutX="63.0" layoutY="59.0" mnemonicParsing="false" onAction="#DayKlick" selected="true" text="In Tagen" />
+      <RadioButton fx:id="hours" layoutX="148.0" layoutY="59.0" mnemonicParsing="false" onAction="#HoursKlick" text="In Stunden" />
+    </children>
+</AnchorPane>

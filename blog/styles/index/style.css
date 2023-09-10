@@ -1,0 +1,111 @@
+.container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    display: grid;
+    background: black;
+    margin: 0 auto;
+    width: 100%;
+
+
+    grid-template-columns:  0.5fr 2fr 0.5fr;
+    grid-template-rows: 100px 50px;
+    grid-gap: 10px;
+
+    grid-template-areas:
+    "header     header      header"
+    "menu       search        login"
+    "content    content     content"
+;
+}
+
+.grid {
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+    grid-area: header;
+    font-size: 50px;
+}
+
+.login {
+    grid-area: login;
+    font-size: 40px;
+}
+
+.login a{
+    color: orange;
+}
+
+.search {
+    grid-area: search;
+    font-size: 40px;
+}
+
+.search a{
+    color: orange;
+}
+
+.menu {
+    grid-area: menu;
+    font-size: 40px;
+}
+
+.menu a{
+    color: orange;
+}
+
+.content{
+    grid-area: content;
+    font-size: 50px;
+    text-align: center;
+}
+
+.post{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.title{
+    text-align: center;
+    font-size: larger;
+}
+
+.beschreibung{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.image{
+    image-rendering: auto;
+    max-width: 300px;
+    text-align: right;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: left;
+}
+
+.like{
+    font-size: 28px;
+}
+
+.comment{
+    font-size: 24px;
+}
+
+.thecomment{
+    font-size: 24px;
+    text-align: left;
+    font-family: "Arial";
+}
+
+.commentbtn{
+    padding: 5px 32px;
+    font-size: 20px;
+}
+

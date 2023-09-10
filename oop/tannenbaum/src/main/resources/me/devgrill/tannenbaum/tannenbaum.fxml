@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="841.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.devgrill.tannenbaum.TannenbaumController">
+    <children>
+        <TextField fx:id="txt1" layoutX="138.0" layoutY="34.0" prefHeight="43.0" prefWidth="257.0" />
+        <TextField fx:id="txt2" layoutX="138.0" layoutY="116.0" prefHeight="43.0" prefWidth="257.0" />
+        <TextField fx:id="txt3" layoutX="138.0" layoutY="200.0" prefHeight="43.0" prefWidth="257.0" />
+        <Text layoutX="63.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stammbreite" wrappingWidth="128.13671875" />
+        <Text layoutX="63.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kronhöhe" wrappingWidth="128.13671875" />
+        <Text layoutX="63.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stammhöhe" wrappingWidth="128.13671875" />
+        <Button fx:id="Zeichnen" layoutX="430.0" layoutY="214.0" mnemonicParsing="false" onAction="#onDraw" prefHeight="32.0" prefWidth="146.0" text="Zeichnen" />
+      <TextArea fx:id="Draw" editable="false" layoutX="63.0" layoutY="321.0" prefHeight="494.0" prefWidth="491.0" />
+    </children>
+</AnchorPane>

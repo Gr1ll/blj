@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oop" />
+        <module name="square" />
+        <module name="tannenbaum" />
+        <module name="Mond" />
+        <module name="wahrenkorb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Mond" target="17" />
+      <module name="oop" target="17" />
+      <module name="square" target="17" />
+      <module name="tannenbaum" target="17" />
+      <module name="wahrenkorb" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
